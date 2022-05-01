@@ -9,6 +9,7 @@ Video Coming soon...
 [Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
 
 - [Hardhat Security](#hardhat-security)
+- [What is an Audit?](#what-is-an-audit)
 - [Help your auditors!](#help-your-auditors)
 - [Process](#process)
 - [Resources](#resources)
@@ -28,7 +29,9 @@ Video Coming soon...
 
 This project is apart of the Hardhat FreeCodeCamp video.
 
-Video coming soon...
+# What is an Audit?
+
+An audit is a security focused code review for looking for issues with your code. 
 
 # Help your auditors!
 
@@ -112,6 +115,7 @@ PRs welcome to improve the list.
     -   Consensys blog on security vulnerabilities. Also [check out their tools.](https://consensys.net/diligence/tools/)
 -   [Chainlink X Certik Blog on Security](https://www.certik.com/resources/blog/technology/top-10-defi-security-best-practices)
     -   I helped write this. 😊
+-   [More attacks](https://consensys.github.io/smart-contract-best-practices/attacks/denial-of-service/)
 
 # Getting Started
 

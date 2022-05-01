@@ -9,6 +9,7 @@ contract BadRNG {
     address payable[] private s_players;
 
     function enterRaffle() external payable {
+        require(msg.value >= 10000000000000000000);
         s_players.push(payable(msg.sender));
     }
 
