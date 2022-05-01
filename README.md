@@ -67,7 +67,7 @@ An auditors process looks like this:
 Typically, you organize reports in a chart that looks like this:
 
 
-![impact image](impact.png)
+![impact image](images/impact.png)
 
 
 # Resources
