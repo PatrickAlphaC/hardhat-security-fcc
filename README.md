@@ -16,6 +16,7 @@ Video Coming soon...
   - [Tools](#tools)
   - [Games](#games)
   - [Blogs](#blogs)
+  - [Audit Examples:](#audit-examples)
   - [Articles](#articles)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
@@ -108,6 +109,11 @@ PRs welcome to improve the list.
     -   Learn from one of the best auditors in the space.
 -   [Openzeppelin Blog](https://blog.openzeppelin.com/)
     -   Another blog of one of the best auditors in the space.
+
+## Audit Examples:
+- [Openzeppelin](https://blog.openzeppelin.com/fei-audit-2/)
+- [Sigma Prime](https://tracer.finance/radar/sigma-prime-audit/)
+- [Trail of Bits](https://alephzero.org/blog/trail-of-bits-audit-security/)
 
 ## Articles
 
