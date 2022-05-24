@@ -21,6 +21,7 @@ Video Coming soon...
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
+  - [No Typescript Support](#no-typescript-support)
     - [Optional Gitpod](#optional-gitpod)
 - [Usage](#usage)
   - [Slither](#slither)
@@ -150,6 +151,10 @@ yarn
 ```
 
 Then, go right into [usage](#usage)
+
+## No Typescript Support
+
+Sorry! Feel free to make a PR if you'd like to see typescript here. 
 
 ### Optional Gitpod
 
