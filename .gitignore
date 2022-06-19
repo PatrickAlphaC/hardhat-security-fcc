@@ -102,3 +102,4 @@ lint/tmp/
 gas-report.txt
 .openzeppelin
 .notes.md
+.article.md
