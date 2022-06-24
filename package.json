@@ -19,7 +19,7 @@
     "solidity-coverage": "^0.7.20"
   },
   "scripts": {
-    "slither": "slither ./contracts --solc-remaps '@openzeppelin=node_modules/@openzeppelin @chainlink=node_modules/@chainlink' --exclude naming-convention,external-function,low-level-calls --buidler-ignore-compile",
+    "slither": "slither . --exclude naming-convention,external-function,low-level-calls",
     "toolbox": "docker run -it --rm -v $PWD:/src trailofbits/eth-security-toolbox",
     "lint": "solhint 'contracts/*.sol'",
     "lint:fix": "solhint 'contracts/**/*.sol' --fix",
