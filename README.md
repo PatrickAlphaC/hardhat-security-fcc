@@ -49,7 +49,7 @@ When writing good code, you 100% need to follow these before sending you code to
 -   Test
     -   If you don't have tests, and test coverage of all your functions and lines of code, you shouldn't go to audit. If your tests don't pass, don't go to audit.
 -   Be ready to talk to your auditors
-    -   The more communitcation, the better.
+    -   The more communication, the better.
 -   Be prepared to give them plenty of time.
     -   They literally pour themselves over your code.
 
