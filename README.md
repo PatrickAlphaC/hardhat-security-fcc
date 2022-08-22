@@ -65,7 +65,7 @@ An auditors process looks like this:
 4. Manual Analysis
 5. Run slow tools (like echidna, manticore, symbolic execution, MythX)
 6. Discuss (and repeat steps as needed)
-7. Write report
+7. Write report ([Example report](https://github.com/transmissions11/solmate/tree/main/audits))
 
 Typically, you organize reports in a chart that looks like this:
 
