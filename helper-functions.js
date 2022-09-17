@@ -1,8 +1,7 @@
 // we can't have these functions in our `helper-hardhat-config`
 // since these use the hardhat library
 // and it would be a circular dependency
-const { run, network } = require("hardhat")
-const { networkConfig } = require("./helper-hardhat-config")
+const { run } = require("hardhat")
 
 const verify = async (contractAddress, args) => {
     console.log("Verifying contract...")
