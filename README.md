@@ -149,9 +149,11 @@ PRs welcome to improve the list.
 ```
 git clone https://github.com/PatrickAlphaC/hardhat-security-fcc
 cd hardhat-security-fcc
+yarn set version 1.22.19   # can skip if your default version is already 1.x.x
 yarn
 ```
 
+(Yarn version 1 is recommended because auto-migration of this repo to yarn v2 doesn't go well. If your node version is incompatible with this, try node 16.19.1.)
 Then, go right into [usage](#usage)
 
 ## No Typescript Support
