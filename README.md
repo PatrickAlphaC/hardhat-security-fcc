@@ -4,7 +4,7 @@ This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Cours
 
 This repo has a few contracts with big flaws, see if you can see them, and see if the tools help you find them!
 
-*This repo has been updated for Goerli over Rinkeby.*
+*This repo has been updated for Sepolia over Goerli.*
 
 *[⌨️ (31:28:32) Lesson 18: Security & Auditing ](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=113312s)*
 
