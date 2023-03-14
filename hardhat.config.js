@@ -15,8 +15,8 @@ const MAINNET_RPC_URL =
     process.env.MAINNET_RPC_URL ||
     process.env.ALCHEMY_MAINNET_RPC_URL ||
     "https://eth-mainnet.alchemyapi.io/v2/your-api-key"
-const GOERLI_RPC_URL =
-    process.env.GOERLI_RPC_URL || "https://eth-goerli.alchemyapi.io/v2/your-api-key"
+const SEPOLIA_RPC_URL =
+    process.env.SEPOLIA_RPC_URL || "https://eth-sepolia.g.alchemy.com/v2/YOUR-API-KEY"
 const POLYGON_MAINNET_RPC_URL =
     process.env.POLYGON_MAINNET_RPC_URL || "https://polygon-mainnet.alchemyapi.io/v2/your-api-key"
 const PRIVATE_KEY = process.env.PRIVATE_KEY
@@ -41,14 +41,14 @@ module.exports = {
         localhost: {
             chainId: 31337,
         },
-        goerli: {
-            url: GOERLI_RPC_URL,
+        sepolia: {
+            url: SEPOLIA_RPC_URL,
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             //   accounts: {
             //     mnemonic: MNEMONIC,
             //   },
             saveDeployments: true,
-            chainId: 5,
+            chainId: 11155111,
         },
         mainnet: {
             url: MAINNET_RPC_URL,
@@ -69,7 +69,7 @@ module.exports = {
     etherscan: {
         // npx hardhat verify --network <NETWORK> <CONTRACT_ADDRESS> <CONSTRUCTOR_PARAMETERS>
         apiKey: {
-            goerli: ETHERSCAN_API_KEY,
+            sepolia: ETHERSCAN_API_KEY,
             polygon: POLYGONSCAN_API_KEY,
         },
     },
