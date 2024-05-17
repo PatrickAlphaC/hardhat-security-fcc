@@ -1,3 +1,7 @@
+# Update: Head to Cyfrin Updraft
+
+> **ℹ️ Important:** This repo is no longer maintained; we invite all people learning Solidity to head to [Cyfrin Updraft](https://updraft.cyfrin.io/)! The 100% free #1 smart contract education platform on earth. Developed with love by Patrick & Cyfrin <3
+
 # Hardhat Security
 
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course. This part of the course is to help users understand basic security and some fundamentals of auditing.
